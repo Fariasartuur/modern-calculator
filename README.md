@@ -1,7 +1,6 @@
 #  CalcFX - Uma Calculadora Moderna e Inteligente com JavaFX
 
 ![Screenshot da CalcFX](screenshot.png) 
-*(Dica: Tire um print da sua aplicação finalizada e salve como `screenshot.png` na pasta do projeto)*
 
 ---
 
