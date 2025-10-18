@@ -1,0 +1,83 @@
+.calculator-background{
+    -fx-background-color: #FFFFFFFF;
+}
+
+.text-area{
+    -fx-background-color: #FFFFFFFF;
+
+    -fx-border-color: transparent transparent #d3d3d3 transparent;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-radius: 0px;
+
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+
+    -fx-text-alignment: right;
+
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-effect: none;
+
+    -fx-vbar-policy: never;
+    -fx-hbar-policy: never;
+}
+
+text-area .scroll-pane{
+    -fx-padding:0;
+    -fx-hbar-policy: never;
+    -fx-vbar-policy: never;
+}
+
+.text-area .content {
+    -fx-text-alignment: right;
+    -fx-background-color: #FFFFFFFF;
+
+    -fx-text-fill: white;
+    -fx-font-size: 28px;
+
+}
+
+.history-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #666666;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0 10px 0 0;
+}
+
+.calculator-button{
+    -fx-font-family: "Arial"; /* Especifica a fonte para TODOS os botões */
+    -fx-font-size: 18px;      /* Aumentei um pouco para melhor leitura */
+    -fx-font-weight: bold;    /* Agora vai funcionar! */
+
+    -fx-background-color: rgba(0, 0, 0, 0.84);
+    -fx-text-fill: #FFFFFFFF;
+    -fx-background-radius: 100px;
+    -fx-border-width: 0px;
+}
+
+.calculator-button:hover {
+    -fx-background-color: #333333; /* Cinza um pouco mais claro que preto */
+}
+
+.calculator-button:pressed {
+    -fx-background-color: #555555;
+}
+
+.operator-button{
+    -fx-font-family: "Arial";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+
+    -fx-background-color: rgba(0, 0, 0, 0.84);
+    -fx-text-fill: #FFFFFFFF;
+    -fx-background-radius: 100px;
+    -fx-border-width: 0px;
+}
+
+.operator-button:hover{
+    -fx-background-color: #333333;
+}
+
+.operator-button:pressed{
+    -fx-background-color: #555555;
+}
